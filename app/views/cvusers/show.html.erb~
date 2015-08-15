@@ -1,0 +1,15 @@
+<p>
+  <strong>Name:</strong>
+  <%= @cvuser.name %>
+</p>
+ 
+<p>
+  <strong>Email:</strong>
+  <%= @cvuser.email %>
+</p>
+<p>
+  <strong>Password:</strong>
+  <%= @cvuser.password %>
+</p>
+<%= link_to 'Edit', edit_cvuser_path(@cvuser) %> |
+<%= link_to 'Back', cvusers_path %>
